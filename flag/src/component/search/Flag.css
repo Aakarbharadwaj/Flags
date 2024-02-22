@@ -1,0 +1,30 @@
+.container {
+    width: 80%;
+    border: 1px solid;
+    margin: 50px auto;
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(121, 181, 241);
+    border-radius: 20px;
+}
+
+.search {
+    width: 60%;
+
+    button {
+        background-color: green;
+        border: none;
+        padding: 10px;
+        border-radius: 10px;
+        color: rgb(103, 255, 103);
+        margin-left: 20px;
+    }
+
+    input {
+        margin-top: 50px;
+        width: 50%;
+        border: none;
+        padding: 10px;
+        border-radius: 10px;
+    }
+}
